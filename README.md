@@ -20,7 +20,7 @@
 
 **B.Tech in Metallurgical and Materials Engineering**  
 Indian Institute of Technology, Roorkee (2022 – 2026)  
-**CGPA**: 8.28  
+**CGPA**: 8.3  
 
 ---
 
