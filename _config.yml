@@ -1,5 +1,70 @@
-title: Akshat Shaw
-logo: /assets/img/circle_head.png
+# title: Akshat Shaw
+# logo: /assets/img/circle_head.png
 #description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+# show_downloads: true
+# theme: jekyll-theme-minimal
+
+
+title: "Akshat Shaw"
+description: "Data Science | LLMs | Machine Learning @ IIT Roorkee"
+logo: "/assets/img/circle_head.png"
+baseurl: "" # leave empty if deploying to root
+url: "https://akshatshaw.github.io" # change if using custom domain
+
+author:
+  name: "Akshat Shaw"
+  email: "akshat_s1@mt.iitr.ac.in"
+  github: "akshatshaw"
+  linkedin: "akshat-shaw"
+
+theme: minima # Or any preferred theme like cayman, jekyll-theme-clean-blog, etc.
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation links (header)
+# nav:
+#   - name: "Home"
+#     link: "/"
+#   - name: "Projects"
+#     link: "/projects"
+#   - name: "Resume"
+#     link: "/resume"
+#   - name: "Blog"
+#     link: "/blog"
+#   - name: "Contact"
+#     link: "/contact"
+
+# Social links (footer or sidebar)
+social_links:
+  github: https://github.com/akshatshaw
+  linkedin: https://linkedin.com/in/akshat-shaw
+  email: mailto:akshat_s1@mt.iitr.ac.in
+
+# SEO tags
+seo:
+  name: "Akshat Shaw"
+  type: "Person"
+  description: "B.Tech @ IIT Roorkee | Data Science & AI | LLMs | Kaggle Expert"
+
+# Google Analytics (optional)
+google_analytics: ""
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Akshat Shaw"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
